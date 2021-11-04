@@ -17,7 +17,7 @@ for i in range(1,student_num+1):
     # this takes in the students score excluding the Evaluated student, convert it into percentage and insert them in the class_score_list
     class_score_list.append(round((student/Total_mark)*100,0))
 
-#the appends the evaluated student to the list
+#this appends the evaluated student to the list
 class_score_list.append(BBcyber)
 # the avg_score will take the average of all the students in the updated class_score_list
 avg_score = round((sum(class_score_list)/len(class_score_list)),0)
